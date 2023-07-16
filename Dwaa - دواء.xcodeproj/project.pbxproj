@@ -16,6 +16,7 @@
 		A14F2AED2A64151C00605E2B /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F2AEC2A64151C00605E2B /* UIViewController+Extension.swift */; };
 		A14F2AEF2A6416D900605E2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F2AEE2A6416D900605E2B /* LoginViewController.swift */; };
 		A14F2AF42A64171300605E2B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F2AF32A64171300605E2B /* SignUpViewController.swift */; };
+		A14F2AF72A649FCB00605E2B /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F2AF62A649FCB00605E2B /* UserAuth.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		A14F2AEC2A64151C00605E2B /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		A14F2AEE2A6416D900605E2B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A14F2AF32A64171300605E2B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A14F2AF62A649FCB00605E2B /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		A14F2ACE2A64139A00605E2B /* Dwaa - دواء */ = {
 			isa = PBXGroup;
 			children = (
+				A14F2AF52A649FAA00605E2B /* Model */,
 				A14F2AEB2A64150500605E2B /* Extensions */,
 				A14F2AE32A6413D900605E2B /* Scences */,
 				A14F2ACF2A64139A00605E2B /* AppDelegate.swift */,
@@ -98,6 +101,14 @@
 				A14F2AEC2A64151C00605E2B /* UIViewController+Extension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A14F2AF52A649FAA00605E2B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A14F2AF62A649FCB00605E2B /* UserAuth.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				A14F2AD02A64139A00605E2B /* AppDelegate.swift in Sources */,
 				A14F2AEF2A6416D900605E2B /* LoginViewController.swift in Sources */,
 				A14F2AD22A64139A00605E2B /* SceneDelegate.swift in Sources */,
+				A14F2AF72A649FCB00605E2B /* UserAuth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
