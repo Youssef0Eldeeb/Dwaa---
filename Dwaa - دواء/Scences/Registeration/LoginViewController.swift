@@ -18,15 +18,25 @@ class LoginViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupUI()
+        self.hideKeyboardWhenTappedAround()
+    }
+    deinit {
+        NotificationCenter.default.removeObserver(self)
     }
     private func setupUI(){
         loginButton.layer.cornerRadius = 15
         loginButton.layer.masksToBounds = true
+        
         emailTitle.text = ""
         passwordTitle.text = ""
         
         emailTextField.delegate = self
         passTextField.delegate = self
+        
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name: UIResponder.keyboardWillShowNotification, object: nil)
+    }
+    @objc func keyboardWillShow(notification: NSNotification){
+        self.view.frame.origin.y = CGFloat(0 - 150)
     }
 }
 
@@ -44,12 +54,19 @@ extension LoginViewController: UITextFieldDelegate{
             let password = passTextField.text!
             let userAuth = UserAuth(email: email, password: password)
             //            checkLoginAuthentication(userAuth)
+            self.view.frame.origin.y = 0
             textField.resignFirstResponder()
             return true
         }else{
+            self.view.frame.origin.y = 0
             textField.resignFirstResponder()
             return true
         }
+    }
+    
+    func textFieldDidEndEditing(_ textField: UITextField) {
+        self.view.frame.origin.y = 0
+        textField.resignFirstResponder()
     }
     
 }

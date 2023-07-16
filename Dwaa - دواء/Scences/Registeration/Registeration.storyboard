@@ -73,7 +73,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="BackgroundColor"/>
                         <constraints>
                             <constraint firstItem="eui-fL-tcJ" firstAttribute="top" secondItem="vDu-zF-Fre" secondAttribute="top" constant="120" id="9ZV-le-xm4"/>
                             <constraint firstItem="eui-fL-tcJ" firstAttribute="centerX" secondItem="5EZ-qb-Rvc" secondAttribute="centerX" id="9fP-Be-xjZ"/>
@@ -161,7 +161,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Vt-Kd-1rd">
-                                <rect key="frame" x="106.66666666666669" y="577.66666666666663" width="180" height="50"/>
+                                <rect key="frame" x="106.66666666666669" y="557.66666666666663" width="180" height="50"/>
                                 <color key="backgroundColor" name="GeneralColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="ftY-mU-cco"/>
@@ -187,7 +187,7 @@
                             <constraint firstItem="2Vt-Kd-1rd" firstAttribute="centerX" secondItem="bUX-Pf-qMz" secondAttribute="centerX" id="Ark-ZZ-8hP"/>
                             <constraint firstItem="ni6-Of-1wC" firstAttribute="top" secondItem="bN3-Ah-H5Z" secondAttribute="bottom" constant="100" id="GKr-wD-a5h"/>
                             <constraint firstItem="bN3-Ah-H5Z" firstAttribute="top" secondItem="Prt-RC-8OW" secondAttribute="top" constant="50" id="Xzk-aC-TdA"/>
-                            <constraint firstItem="2Vt-Kd-1rd" firstAttribute="top" secondItem="ni6-Of-1wC" secondAttribute="bottom" constant="130" id="byJ-gZ-CbE"/>
+                            <constraint firstItem="2Vt-Kd-1rd" firstAttribute="top" secondItem="ni6-Of-1wC" secondAttribute="bottom" constant="110" id="byJ-gZ-CbE"/>
                             <constraint firstItem="Prt-RC-8OW" firstAttribute="trailing" secondItem="ni6-Of-1wC" secondAttribute="trailing" constant="20" id="mcW-Sy-BYB"/>
                             <constraint firstItem="bN3-Ah-H5Z" firstAttribute="centerX" secondItem="bUX-Pf-qMz" secondAttribute="centerX" id="vZu-Fo-Fjd"/>
                         </constraints>
@@ -298,7 +298,7 @@
                                 </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xBT-0y-Q1T">
-                                <rect key="frame" x="106.66666666666669" y="583.33333333333337" width="180" height="50"/>
+                                <rect key="frame" x="106.66666666666669" y="573.33333333333337" width="180" height="50"/>
                                 <color key="backgroundColor" name="GeneralColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="H5a-JQ-0cA"/>
@@ -325,7 +325,7 @@
                         <viewLayoutGuide key="safeArea" id="txx-SZ-4RI"/>
                         <color key="backgroundColor" name="BackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="xBT-0y-Q1T" firstAttribute="top" secondItem="yqA-FC-1Nf" secondAttribute="bottom" constant="70" id="5nG-5U-eFE"/>
+                            <constraint firstItem="xBT-0y-Q1T" firstAttribute="top" secondItem="yqA-FC-1Nf" secondAttribute="bottom" constant="60" id="5nG-5U-eFE"/>
                             <constraint firstItem="yqA-FC-1Nf" firstAttribute="centerX" secondItem="oIq-rK-QWY" secondAttribute="centerX" id="5qb-ca-HNt"/>
                             <constraint firstItem="h4q-q3-woa" firstAttribute="top" secondItem="txx-SZ-4RI" secondAttribute="top" constant="25" id="Dqc-mj-6tP"/>
                             <constraint firstItem="h4q-q3-woa" firstAttribute="centerX" secondItem="oIq-rK-QWY" secondAttribute="centerX" id="KkO-Dd-Vzw"/>
@@ -377,9 +377,6 @@
         <namedColor name="GeneralColor">
             <color red="0.12099999934434891" green="0.74500000476837158" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
         <systemColor name="systemGray2Color">
             <color red="0.68235294117647061" green="0.68235294117647061" blue="0.69803921568627447" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

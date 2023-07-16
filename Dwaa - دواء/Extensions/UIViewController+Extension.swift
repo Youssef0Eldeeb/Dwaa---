@@ -22,4 +22,13 @@ extension UIViewController{
     enum StoryboardEnum: String{
         case Registeration
     }
+    
+    func hideKeyboardWhenTappedAround(){
+        let tap = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismiss_Keyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    @objc func dismiss_Keyboard(){
+        view.endEditing(true)
+    }
 }
