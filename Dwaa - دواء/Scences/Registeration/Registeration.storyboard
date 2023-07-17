@@ -83,6 +83,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="jc6-7O-Ie9"/>
                     <connections>
+                        <outlet property="buttonsView" destination="Qv1-KY-6Ib" id="qH3-qs-0NP"/>
                         <outlet property="loginButton" destination="8wc-7V-SrY" id="OjZ-DH-ngF"/>
                         <outlet property="logoLabel" destination="eui-fL-tcJ" id="3jf-wc-anG"/>
                         <outlet property="signupButton" destination="225-P3-wx0" id="edg-sc-RTO"/>
