@@ -17,9 +17,22 @@
 		A14F2AEF2A6416D900605E2B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F2AEE2A6416D900605E2B /* LoginViewController.swift */; };
 		A14F2AF42A64171300605E2B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F2AF32A64171300605E2B /* SignUpViewController.swift */; };
 		A14F2AF72A649FCB00605E2B /* UserAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = A14F2AF62A649FCB00605E2B /* UserAuth.swift */; };
+		A1B6B8662A6549AF009C0817 /* FirebaseAuthenticator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6B8652A6549AF009C0817 /* FirebaseAuthenticator.swift */; };
+		A1B6B86B2A66A887009C0817 /* UserDefaultManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6B86A2A66A887009C0817 /* UserDefaultManager.swift */; };
+		A1B6B86D2A66A8AF009C0817 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6B86C2A66A8AF009C0817 /* Constants.swift */; };
+		A1B6B86F2A66A8D6009C0817 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6B86E2A66A8D6009C0817 /* User.swift */; };
+		A1B6B8712A66A9F3009C0817 /* FirestoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6B8702A66A9F3009C0817 /* FirestoreManager.swift */; };
+		A1B6B8742A66B1F5009C0817 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A1B6B8732A66B1F5009C0817 /* GoogleService-Info.plist */; };
+		A1B6B8772A66E960009C0817 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6B8762A66E960009C0817 /* LoginViewModel.swift */; };
+		A1B6B8792A66E971009C0817 /* SignupViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6B8782A66E971009C0817 /* SignupViewModel.swift */; };
+		A1B6B87C2A672C62009C0817 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B6B87B2A672C62009C0817 /* Home.storyboard */; };
+		A1B6B87E2A672C75009C0817 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B6B87D2A672C75009C0817 /* HomeViewController.swift */; };
+		ECA1A83586C7C55C52D08E67 /* Pods_Dwaa_______.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E5FB95BFD0102372881F16E /* Pods_Dwaa_______.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A047C91B203CDC73C9A88D2 /* Pods-Dwaa - دواء.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dwaa - دواء.release.xcconfig"; path = "Target Support Files/Pods-Dwaa - دواء/Pods-Dwaa - دواء.release.xcconfig"; sourceTree = "<group>"; };
+		6E5FB95BFD0102372881F16E /* Pods_Dwaa_______.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = "Pods_Dwaa_______.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14F2ACC2A64139A00605E2B /* Dwaa - دواء.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dwaa - دواء.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A14F2ACF2A64139A00605E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A14F2AD12A64139A00605E2B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -32,6 +45,17 @@
 		A14F2AEE2A6416D900605E2B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A14F2AF32A64171300605E2B /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		A14F2AF62A649FCB00605E2B /* UserAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAuth.swift; sourceTree = "<group>"; };
+		A1B6B8652A6549AF009C0817 /* FirebaseAuthenticator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthenticator.swift; sourceTree = "<group>"; };
+		A1B6B86A2A66A887009C0817 /* UserDefaultManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManager.swift; sourceTree = "<group>"; };
+		A1B6B86C2A66A8AF009C0817 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		A1B6B86E2A66A8D6009C0817 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		A1B6B8702A66A9F3009C0817 /* FirestoreManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreManager.swift; sourceTree = "<group>"; };
+		A1B6B8732A66B1F5009C0817 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A1B6B8762A66E960009C0817 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A1B6B8782A66E971009C0817 /* SignupViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewModel.swift; sourceTree = "<group>"; };
+		A1B6B87B2A672C62009C0817 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		A1B6B87D2A672C75009C0817 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BB81590341E129A75C377D82 /* Pods-Dwaa - دواء.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dwaa - دواء.debug.xcconfig"; path = "Target Support Files/Pods-Dwaa - دواء/Pods-Dwaa - دواء.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +63,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECA1A83586C7C55C52D08E67 /* Pods_Dwaa_______.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60CA7D914A7B748B9665E09A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E5FB95BFD0102372881F16E /* Pods_Dwaa_______.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A14F2AC32A64139900605E2B = {
 			isa = PBXGroup;
 			children = (
 				A14F2ACE2A64139A00605E2B /* Dwaa - دواء */,
 				A14F2ACD2A64139A00605E2B /* Products */,
+				E4E055FE37CC16BAB83E04D3 /* Pods */,
+				60CA7D914A7B748B9665E09A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,14 +99,16 @@
 		A14F2ACE2A64139A00605E2B /* Dwaa - دواء */ = {
 			isa = PBXGroup;
 			children = (
+				A1B6B8722A66AA25009C0817 /* Resources */,
+				A1B6B8632A654884009C0817 /* Services */,
+				A1B6B8622A654861009C0817 /* ViewModels */,
 				A14F2AF52A649FAA00605E2B /* Model */,
 				A14F2AEB2A64150500605E2B /* Extensions */,
 				A14F2AE32A6413D900605E2B /* Scences */,
 				A14F2ACF2A64139A00605E2B /* AppDelegate.swift */,
 				A14F2AD12A64139A00605E2B /* SceneDelegate.swift */,
-				A14F2AD82A64139C00605E2B /* Assets.xcassets */,
-				A14F2ADA2A64139C00605E2B /* LaunchScreen.storyboard */,
 				A14F2ADD2A64139C00605E2B /* Info.plist */,
+				A1B6B8732A66B1F5009C0817 /* GoogleService-Info.plist */,
 			);
 			path = "Dwaa - دواء";
 			sourceTree = "<group>";
@@ -79,7 +116,9 @@
 		A14F2AE32A6413D900605E2B /* Scences */ = {
 			isa = PBXGroup;
 			children = (
+				A1B6B87A2A672C41009C0817 /* Home */,
 				A14F2AE42A6413E900605E2B /* Registeration */,
+				A14F2ADA2A64139C00605E2B /* LaunchScreen.storyboard */,
 			);
 			path = Scences;
 			sourceTree = "<group>";
@@ -107,8 +146,71 @@
 			isa = PBXGroup;
 			children = (
 				A14F2AF62A649FCB00605E2B /* UserAuth.swift */,
+				A1B6B86E2A66A8D6009C0817 /* User.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		A1B6B8622A654861009C0817 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6B8762A66E960009C0817 /* LoginViewModel.swift */,
+				A1B6B8782A66E971009C0817 /* SignupViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		A1B6B8632A654884009C0817 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6B8692A66A875009C0817 /* LocalDatabaseManager */,
+				A1B6B8642A6548F9009C0817 /* FirebaseManager */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A1B6B8642A6548F9009C0817 /* FirebaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6B8652A6549AF009C0817 /* FirebaseAuthenticator.swift */,
+				A1B6B8702A66A9F3009C0817 /* FirestoreManager.swift */,
+			);
+			path = FirebaseManager;
+			sourceTree = "<group>";
+		};
+		A1B6B8692A66A875009C0817 /* LocalDatabaseManager */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6B86A2A66A887009C0817 /* UserDefaultManager.swift */,
+			);
+			path = LocalDatabaseManager;
+			sourceTree = "<group>";
+		};
+		A1B6B8722A66AA25009C0817 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6B86C2A66A8AF009C0817 /* Constants.swift */,
+				A14F2AD82A64139C00605E2B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A1B6B87A2A672C41009C0817 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A1B6B87B2A672C62009C0817 /* Home.storyboard */,
+				A1B6B87D2A672C75009C0817 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E4E055FE37CC16BAB83E04D3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB81590341E129A75C377D82 /* Pods-Dwaa - دواء.debug.xcconfig */,
+				4A047C91B203CDC73C9A88D2 /* Pods-Dwaa - دواء.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -118,9 +220,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A14F2AE02A64139C00605E2B /* Build configuration list for PBXNativeTarget "Dwaa - دواء" */;
 			buildPhases = (
+				968E8616327420D0A9F7D0A1 /* [CP] Check Pods Manifest.lock */,
 				A14F2AC82A64139A00605E2B /* Sources */,
 				A14F2AC92A64139A00605E2B /* Frameworks */,
 				A14F2ACA2A64139A00605E2B /* Resources */,
+				E90150CEF3E2844D97F38C23 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,12 +274,56 @@
 			buildActionMask = 2147483647;
 			files = (
 				A14F2ADC2A64139C00605E2B /* LaunchScreen.storyboard in Resources */,
+				A1B6B87C2A672C62009C0817 /* Home.storyboard in Resources */,
+				A1B6B8742A66B1F5009C0817 /* GoogleService-Info.plist in Resources */,
 				A14F2AD92A64139C00605E2B /* Assets.xcassets in Resources */,
 				A14F2AE62A6413FF00605E2B /* Registeration.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		968E8616327420D0A9F7D0A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Dwaa - دواء-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E90150CEF3E2844D97F38C23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dwaa - دواء/Pods-Dwaa - دواء-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Dwaa - دواء/Pods-Dwaa - دواء-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Dwaa - دواء/Pods-Dwaa - دواء-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A14F2AC82A64139A00605E2B /* Sources */ = {
@@ -184,11 +332,19 @@
 			files = (
 				A14F2AF42A64171300605E2B /* SignUpViewController.swift in Sources */,
 				A14F2AED2A64151C00605E2B /* UIViewController+Extension.swift in Sources */,
+				A1B6B8662A6549AF009C0817 /* FirebaseAuthenticator.swift in Sources */,
 				A14F2AE82A64141400605E2B /* InitialViewController.swift in Sources */,
 				A14F2AD02A64139A00605E2B /* AppDelegate.swift in Sources */,
+				A1B6B87E2A672C75009C0817 /* HomeViewController.swift in Sources */,
+				A1B6B86D2A66A8AF009C0817 /* Constants.swift in Sources */,
 				A14F2AEF2A6416D900605E2B /* LoginViewController.swift in Sources */,
+				A1B6B8712A66A9F3009C0817 /* FirestoreManager.swift in Sources */,
+				A1B6B8772A66E960009C0817 /* LoginViewModel.swift in Sources */,
+				A1B6B86B2A66A887009C0817 /* UserDefaultManager.swift in Sources */,
+				A1B6B8792A66E971009C0817 /* SignupViewModel.swift in Sources */,
 				A14F2AD22A64139A00605E2B /* SceneDelegate.swift in Sources */,
 				A14F2AF72A649FCB00605E2B /* UserAuth.swift in Sources */,
+				A1B6B86F2A66A8D6009C0817 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +478,7 @@
 		};
 		A14F2AE12A64139C00605E2B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB81590341E129A75C377D82 /* Pods-Dwaa - دواء.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -349,6 +506,7 @@
 		};
 		A14F2AE22A64139C00605E2B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A047C91B203CDC73C9A88D2 /* Pods-Dwaa - دواء.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

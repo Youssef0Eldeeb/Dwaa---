@@ -10,5 +10,5 @@ import Foundation
 struct UserAuth{
     var email: String
     var password: String
-    var name: String?
+    var username: String?
 }

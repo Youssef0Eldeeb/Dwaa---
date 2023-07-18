@@ -66,7 +66,7 @@ extension SignUpViewController: UITextFieldDelegate{
             let firstName = firstNameTextField.text ?? ""
             let lastName = lastNameTextField.text ?? ""
             let name = firstName + " " + lastName
-            let userAuth = UserAuth(email: email, password: password, name: name)
+            let userAuth = UserAuth(email: email, password: password, username: name)
 //            checkSignupAuthentication(userAuth)
             self.view.frame.origin.y = 0
             textField.resignFirstResponder()
